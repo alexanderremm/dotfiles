@@ -14,4 +14,4 @@ function git_branch() {
 }
 
 alias ls='ls --color=auto'
-PS1='\e[93m[\u]\e[32m[\W]\e[34m$(git_branch)\e[31m $ \e[37m'
+PS1='\e[93m[\u]\e[32m[\W]\e[35m$(git_branch)\e[31m$ \e[37m'
